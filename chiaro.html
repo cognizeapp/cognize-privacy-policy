@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy di Chiaro</title>
+<meta name="description" content="Informativa sulla privacy dell'app Chiaro — gestione bollette. Nessun account, nessun tracker, dati sul dispositivo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+  :root{--bg:#0B0F14;--surface:#12171E;--hair:#232C36;--ink:#F2F5F8;--soft:#9AA6B2;--faint:#636E7B;--green:#00FF94}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.65;padding:0 1.25rem}
+  .wrap{max-width:44rem;margin:0 auto;padding:4.5rem 0 6rem}
+  .mark{display:inline-flex;align-items:center;gap:.6rem;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.02em}
+  .mark .dot{width:.62rem;height:.62rem;border-radius:50%;background:var(--green);box-shadow:0 0 14px 1px rgba(0,255,148,.45)}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2rem,6vw,2.9rem);line-height:1.08;letter-spacing:-.02em;margin:2.6rem 0 .5rem;text-wrap:balance}
+  .updated{color:var(--faint);font-size:.9rem;margin:0 0 2.4rem}
+  .lede{font-size:1.18rem;line-height:1.6;border-left:2px solid var(--green);padding-left:1.1rem;margin:0 0 2.8rem}
+  h2{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.28rem;letter-spacing:-.01em;margin:2.8rem 0 .7rem}
+  p{margin:0 0 1.05rem;color:var(--soft)}
+  p strong,li strong{color:var(--ink);font-weight:600}
+  ul{margin:0 0 1.05rem;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:.7rem}
+  li{position:relative;padding-left:1.5rem;color:var(--soft)}
+  li::before{content:"";position:absolute;left:.15rem;top:.62em;width:.4rem;height:.4rem;border-radius:1px;background:var(--green);opacity:.9}
+  .box{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:1.15rem 1.3rem;margin:1.6rem 0 2rem}
+  .box p{margin:0;font-size:.97rem}
+  a{color:var(--green);text-decoration:none;border-bottom:1px solid rgba(0,255,148,.35)}
+  a:hover{border-bottom-color:var(--green)}
+  footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--hair);color:var(--faint);font-size:.88rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="mark"><span class="dot"></span>CHIARO</span>
+  <h1>Informativa sulla privacy</h1>
+  <p class="updated">App Chiaro — Le tue bollette, finalmente chiare · Aggiornata il 10 settembre 2026</p>
+  <p class="lede">Chiaro è pensata per funzionare senza account e senza server. Le tue bollette e il tuo stipendio restano sul telefono.</p>
+
+  <h2>Quali dati trattiamo e dove restano</h2>
+  <ul>
+    <li><strong>Bollette e relative foto</strong> — salvate esclusivamente nella memoria del tuo dispositivo. Non vengono caricate su alcun server.</li>
+    <li><strong>Stipendio netto mensile</strong> — salvato cifrato nell'archivio sicuro di sistema (Keychain su iOS, Keystore su Android). Non viene mai trasmesso.</li>
+    <li><strong>Preferenze</strong> (notifiche, impostazioni) — salvate localmente sul dispositivo.</li>
+  </ul>
+  <p>Non raccogliamo dati identificativi, non creiamo profili utente, non usiamo pubblicità né strumenti di analisi o tracciamento di terze parti.</p>
+
+  <h2>Notifiche</h2>
+  <p>I promemoria di scadenza sono notifiche locali generate dal dispositivo. Puoi disattivarle in qualsiasi momento dalle impostazioni dell'app o del sistema.</p>
+
+  <h2>Fotocamera e foto</h2>
+  <p>L'accesso a fotocamera e libreria foto serve solo ad acquisire l'immagine di una bolletta per estrarne i dati. In questa versione l'elaborazione avviene sul dispositivo.</p>
+
+  <h2>Sviluppi futuri</h2>
+  <p>Una futura funzione di confronto offerte potrà inviare dati di consumo in forma aggregata e non identificativa a un servizio di calcolo del risparmio. Verrà attivata solo con il tuo consenso esplicito e questa informativa sarà aggiornata di conseguenza.</p>
+
+  <h2>Cancellazione dei dati</h2>
+  <p>Puoi cancellare tutte le bollette e rimuovere lo stipendio dalle impostazioni dell'app. Disinstallando l'app tutti i dati locali vengono eliminati.</p>
+
+  <div class="box"><p>Non essendoci raccolta di dati personali, non si applicano diritti di accesso, rettifica o portabilità verso di noi: i dati sono e restano sul tuo dispositivo, sotto il tuo controllo.</p></div>
+
+  <h2>Contatti</h2>
+  <p>Per domande sulla privacy: <a href="mailto:supporto@chiaro.app">supporto@chiaro.app</a></p>
+
+  <footer>&copy; 2026 Chiaro. Informativa sulla privacy ufficiale dell'app Chiaro pubblicata sull'App Store.</footer>
+</div>
+</body>
+</html>
